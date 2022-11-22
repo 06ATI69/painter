@@ -3,8 +3,8 @@
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  color: hsla(0, 0%, 0%, .9);
   font-family: 'Playfair Display', serif;
+  color: #262626;
   text-align: center;
   display: table;
 }
@@ -36,7 +36,7 @@ body {
   background: url('assets/white-paper.jpg')
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 600px) {
 
   .headline {
     font-size: 6rem;
@@ -48,13 +48,15 @@ body {
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
+
 /* ==== ARTICLE STYLES ==== */
+
 
 section {
   padding: 0 .625rem;
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 600px) {
 
   section {
     width: 50%;
@@ -66,8 +68,9 @@ section {
 
 }
 
-section h1 {
+section h2 {
   font-family: 'Cormorant Garamond', serif;
+  color: #737373;
   text-align: center;
   font-size: 2rem;
   line-height: 1.25;
@@ -76,15 +79,41 @@ section h1 {
 
 section p {
   font-family: 'Libre Franklin', sans-serif;
+  color: #737373;
   text-align: center;
   font-size: 1rem;
   line-height: 1.5;
   margin: 1rem 0;
 }
-.footer {
-  padding: 1.25rem;
-  color: rgba(0, 0, 0, .4);
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 1rem;
-  text-align: center;
+
+/* ==== CV CONTAINER STYLES ==== */
+
+.cv {
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: #cccccc;
+  padding: 20px;
+  }
+
+#profil {
+  float: right;
+  width: 14.375rem;
+  height: 17.1875rem;
+  padding: .2rem;
 }
+
+.cv h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #737373;
+  font-size: 1.5rem;
+}
+
+.cv p {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #737373;
+  font-size: 1rem;
+}
+
+/* ==== TEXT COPIED FROM  WIKIPEDIA ==== */
+
+/* ==== BY 06ATI69 ==== */
